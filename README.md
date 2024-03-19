@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Insight Seeker
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Insight Seeker is an innovative semantic search application leveraging Web crawling and Natural Language Processing (NLP) to enhance the searching experience and provide users with a unique way to explore content on the internet. This application offers multiple search modalities including text, images, and soon audio, aiming to deliver concise and accurate results while minimizing distracting content.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Flow
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Insight Seeker Flow](image_path)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **User Input Enhancement:** The user input is facilitated by a completion system powered by GPT 3.5 Turbo API. This system assists in obtaining the intended search phrase from the user, particularly effective with images or audio inputs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Web Crawling and Search:** The search phrase is then queried against various search engines such as Google or Bing, and the resulting URLs are crawled to extract content.
 
-## Learn More
+- **Content Vectorization:** The retrieved content is vectorized using an LLM (Large Language Model) machine learning model, and the resultant vectors are stored in a vector-based database.
 
-To learn more about Next.js, take a look at the following resources:
+- **Cosine Similarity Analysis:** Utilizing the vectorized user input and content, the application performs cosine similarity analysis to identify the most relevant content.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **AI-based Content Interpretation:** The identified relevant content serves as context for the AI model to generate specific answers to user queries about the content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To run Insight Seeker locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/insight-seeker.git
