@@ -6,7 +6,7 @@ Insight Seeker is an innovative semantic search application leveraging Web crawl
 
 ## Project Flow
 
-<img src="https://github.com/F1xedbot/InsightSeeker/blob/main/InsightSeeker_Diagram.png?raw=true" alt="Insight Seeker Flow" width="400">
+<img src="https://github.com/F1xedbot/InsightSeeker/blob/main/InsightSeeker_Diagram.png?raw=true" alt="Insight Seeker Flow" width="800">
 
 - **User Input Enhancement:** The user input is facilitated by a completion system powered by GPT 3.5 Turbo API. This system assists in obtaining the intended search phrase from the user, particularly effective with images or audio inputs.
 
