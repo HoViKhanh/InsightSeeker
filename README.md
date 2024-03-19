@@ -18,10 +18,20 @@ Insight Seeker is an innovative semantic search application leveraging Web crawl
 
 - **AI-based Content Interpretation:** The identified relevant content serves as context for the AI model to generate specific answers to user queries about the content.
 
-## Installation
+## Contributing
 
-To run Insight Seeker locally, follow these steps:
+Contributions are welcome! If you'd like to contribute to Insight Seeker, please follow these guidelines:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/insight-seeker.git
+- Fork the repository.
+  
+- Create a new branch: `git checkout -b feature/new-feature`.
+  
+- Make your changes and commit them: `git commit -m 'Add new feature'`.
+  
+- Push to the branch: `git push origin feature/new-feature`.
+  
+- Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
