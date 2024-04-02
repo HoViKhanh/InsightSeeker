@@ -26,7 +26,7 @@ export function Hero() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl m-y-5 transition-all text-white" data-aos="fade-up">
                     Welcome to <span className="color-slide">Insight Seeker</span>
                 </h1>
-                <p className="mx-auto px-5 md:text-xl/relaxed max-w-6xl text-green-500 bg-slate-900 font-extralight" data-aos="fade-left" data-aos-delay="100">
+                <p className="mx-auto px-5 md:text-xl/relaxed max-w-6xl text-green-500 bg-slate-900 font-extralight bg-opacity-55" data-aos="fade-left" data-aos-delay="100">
                     Elevate your research with the power of AI and semantic search to unlock new insights & streamline your workflow
                 </p>
                 </div>
